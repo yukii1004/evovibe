@@ -75,7 +75,7 @@ export const EvolutionDisplay = ({ evolutionStage, onLeftClick, onRightClick }: 
           <img 
             src={humanSilhouette} 
             alt="Human Evolution" 
-            className="h-80 w-auto evolution-glow"
+            className="h-80 w-100 evolution-glow"
             style={getGlowStyle(evolutionStage)}
           />
           
