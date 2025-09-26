@@ -103,13 +103,13 @@ const Index = () => {
         </div>
       </div>
 
-      {/* Progress Indicators */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-center">
-        <div className="text-xs text-muted-foreground mb-2">
-          Upgrades Purchased: {gameState.upgrades.filter(u => u.purchased).length}/30
+      {/* Progress Indicators - moved to avoid overlap */}
+      <div className="absolute bottom-4 right-4 text-right">
+        <div className="text-xs text-muted-foreground mb-2 bg-background/80 rounded px-2 py-1">
+          Upgrades: {gameState.upgrades.filter(u => u.purchased).length}/30
         </div>
         {canReachSingularity && (
-          <div className="text-evolution font-bold animate-pulse">
+          <div className="text-evolution font-bold animate-pulse text-sm bg-background/80 rounded px-2 py-1">
             🔥 READY FOR SINGULARITY 🔥
           </div>
         )}
