@@ -47,6 +47,24 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        knowledge: {
+          DEFAULT: "hsl(var(--knowledge))",
+          foreground: "hsl(var(--knowledge-foreground))",
+          glow: "hsl(var(--knowledge-glow))",
+        },
+        mana: {
+          DEFAULT: "hsl(var(--mana))",
+          foreground: "hsl(var(--mana-foreground))",
+          glow: "hsl(var(--mana-glow))",
+        },
+        cosmic: {
+          DEFAULT: "hsl(var(--cosmic))",
+          glow: "hsl(var(--cosmic-glow))",
+        },
+        evolution: {
+          DEFAULT: "hsl(var(--evolution))",
+          glow: "hsl(var(--evolution-glow))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
